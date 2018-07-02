@@ -8,12 +8,16 @@ public class SBIAccount {
 	private double intrestRate;
 	private String location;
 	private String city:
+	private String state:
 	
 	private SBIAccount(){
 		/* 
 		 * Empty implention to make other classes not allowed 
 		 * to create object of this class directly
 		 */
+	}
+	public void m1(){
+	//empty imple
 	}
 	public long getAccountNo() {
 		return accountNo;
@@ -47,7 +51,7 @@ public class SBIAccount {
 	}
 	@Override
 	public String toString() {
-		return "SBIAccount [accountNo=" + accountNo + ", accountHolder=" + accountHolder + ", branch=" + branch
+		return "SBIAccount [accountHolder=" + accountHolder + ", branch=" + branch
 				+ ", balance=" + balance + ", intrestRate=" + intrestRate + "]";
 	}
 	
