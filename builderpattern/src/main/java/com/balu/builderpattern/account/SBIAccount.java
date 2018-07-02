@@ -7,6 +7,7 @@ public class SBIAccount {
 	private double balance;
 	private double intrestRate;
 	private String location;
+	private String city:
 	
 	private SBIAccount(){
 		/* 
