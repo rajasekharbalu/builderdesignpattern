@@ -6,6 +6,7 @@ public class SBIAccount {
 	private String branch;
 	private double balance;
 	private double intrestRate;
+	private String location;
 	
 	private SBIAccount(){
 		/* 
